@@ -13,5 +13,16 @@ activities = [
     "Watch a movie"
 ]
 
+motivations = [
+    "You got this! 💪",
+    "Keep pushing forward! 🌟",
+    "Make today amazing! ✨",
+    "Small steps lead to big wins! 🏆",
+    "Believe in yourself! 🙌"
+]
+
 choice = random.choice(activities)
+motivation = random.choice(motivations)
+
 print("Today's random activity is:", choice)
+print("Motivation for you:", motivation)
